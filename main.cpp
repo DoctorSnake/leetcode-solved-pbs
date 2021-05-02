@@ -1,13 +1,9 @@
 #include <iostream>
-#include "AddTwoNumbers.h"
-#include "MaximumPathSum.h"
+#include "easy_collection/AddTwoNumbers.h"
+#include "medium_collection/MaximumPathSum.h"
 #include <string>
 
 int main() {
-  // testAddTwoNumbers();
-  // testMaximumPathSum();
-  std::string s = "3";
-  s += "4";
-  std::cout << s << std::endl;
-  std::cout << "this is a test" << std::endl;
+  testAddTwoNumbers();
+  testMaximumPathSum();
 }
