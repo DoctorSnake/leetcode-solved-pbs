@@ -9,4 +9,5 @@ int main() {
   std::string s = "3";
   s += "4";
   std::cout << s << std::endl;
+  std::cout << "this is a test" << std::endl;
 }
